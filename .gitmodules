@@ -1,0 +1,3 @@
+[submodule "src/TamoAPI"]
+	path = src/TamoAPI
+	url = https://github.com/justinas2314/Tamo-API

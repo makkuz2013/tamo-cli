@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
+import sys
+sys.path.append("/usr/local/lib/tamo-cli/TamoAPI")
+
+print(sys.path)
 from pprint import pprint
-from src.TamoAPI import TamoSession
+from TamoAPI import TamoSession
 import json
 import datetime
 from textwrap import fill
-import sys
 from pathlib import Path
 from colorama import Fore, Style
-
-sys.path.append("/usr/local/lib/tamo-cli")
 
 # tamo-cli
 # by makkuz2013
