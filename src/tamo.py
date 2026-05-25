@@ -2,7 +2,6 @@
 import sys
 sys.path.append("/usr/local/lib/tamo-cli/TamoAPI")
 
-print(sys.path)
 from pprint import pprint
 from TamoAPI import TamoSession
 import json
